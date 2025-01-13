@@ -1,70 +1,70 @@
 ﻿
 {
-"spider":"clan://TVBox/0723.jar",
+"蜘蛛":"clan://TVbox/0723.jar",
 
 
 
-"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L2xpdmUudHh0"]}]}],
+"生命":[{"组":"重定向","频道":[{"名称":"重定向","URL":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L2xpdmUudHh0"]}]}],
 
 
-"sites":[
+"站点":[
 
-{"key": "Kuaikan","name": " 🎴吾爱快看(SP)","type": 3,"api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"键":"快看","名称":" 🎴吾爱快看(SP)","类型":3,"api":"csp_快看","可搜索":1,"快速搜索":1,"可过滤":1},
 
-{"key":"ttzy", "name":"👰天堂资源(SP)", "type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1, "quickSearch":1}
+{"键":"ttzy","名称":"👰天堂资源(SP)","类型":1,"api":"http://vipmv.cc/api.php/provide/vod/","可搜索":1,"快速搜索":1}
 
 ],
 
 
 
-"parses": [
-{"name": "解析聚合","type": 3,"url": "Demo"},
-{"name": "Json并发","type": 2,"url": "Parallel"}, 
-{"name": "Json轮询","type": 2,"url": "Sequence"}, 
-{"name": "GGTV快速","type": 1,"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="}, 
-{"name": "OKjx综合","type": 0,"url": "https://okjx.cc/?url="}
+"分析":[
+{"名称":"解析聚合","类型":3,"URL":"演示"},
+{"名称":"Json并发","类型":2,"URL":"并行"},
+{"名称":"Json轮询","类型":2,"URL":"顺序"},
+{"名称"：GGTV"快速","类型":1,"URL":"https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="},
+{"名称":"OKjx综合","类型":0,"URL":"https://okjx.cc/?url="}
 ],
 
-"flags": ["youku", "qq", "iqiyi", "imgo", "xueren", "m1905", "qiyi", "letv", "sohu", "tudou", "pptv", "dbm3u8", "mgtv", "wasu", "bilibili", "le", "duoduozy", "renrenmi", "xigua", "优酷", "西瓜", "乐视", "芒果", "腾讯", "爱奇艺", "奇艺", "ltnb", "rx", "CL4K", "xfyun", "wuduzy", "哔哩哔哩", "哔哩"],
-	"ijk": [{
-		"group": "软解码",
-		"options": [{
-			"category": 4,
-			"name": "opensles",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "overlay-format",
-			"value": "842225234"
-		}, {
-			"category": 4,
-			"name": "framedrop",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "soundtouch",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "start-on-prepared",
-			"value": "1"
-		}, {
-			"category": 1,
-			"name": "http-detect-range-support",
-			"value": "0"
-		}, {
-			"category": 1,
-			"name": "fflags",
-			"value": "fastseek"
-		}, {
-			"category": 2,
-			"name": "skip_loop_filter",
-			"value": "48"
-		}, {
-			"category": 4,
-			"name": "reconnect",
-			"value": "1"
-		}, {
+"标志":["优酷","qq","爱奇艺","imgo","学仁","M1905","奇艺","乐视","搜狐","土豆","PPTV","dbm3u8","MGTV","wasu","bilibili","le","二重奏","人人米","西瓜","优酷","西瓜","乐视","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy","哔哩哔哩","哔哩"],
+	"IJK":[{
+		"组":"软解码",
+		"选项":[{
+			"类别":4,
+			"名称":"OpenSLES",
+			"值":"0"
+		},{
+			"类别":4,
+			"名称":"覆盖格式",
+			"值":"842225234"
+		},{
+			"类别":4,
+			"名称":"framedrop",
+			"值":"1"
+		},{
+			"类别":4,
+			"名称":"声音触控",
+			"值":"1"
+		},{
+			"类别":4,
+			"名称":"准备就绪时启动",
+			"值":"1"
+		},{
+			"类别":1,
+			"名称":"http-detect-range-support",
+			"值":"0"
+		},{
+			"类别":1,
+			"名称":"fflags",
+			"值":"快速搜索"
+		},{
+			"类别":2,
+			"名称":"skip_loop_filter",
+			"值":"48"
+		},{
+			"类别":4,
+			"名称":"重新连接",
+			"值":"1"
+		},{
 			"category": 4,
 			"name": "enable-accurate-seek",
 			"value": "0"
